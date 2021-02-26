@@ -6,65 +6,88 @@ body {
 h1, h2, h3, h4, p {
     margin: 0;
 }
-section{
-    width: 1110px;
-    background-color: aqua;
+h1 {
+    margin: auto;
 }
-.container {
-    margin: 0 auto;
-    background-color: blueviolet;
+section{
+    width: 1440px;
+    background-color: #D5FAFC;
 }
 .block__left {
-    margin-left: 21px;
-    width: 445px;
-    background-color: #2EC5CE;
+    margin-left: 35;
     display: inline-block;
-    vertical-align: middle;
-    margin-top: -384px;
-    
-}
-.block__right {
-    width: 570px;
-    margin-left: 35px;
-    margin-right: 35px;
-    display: inline-block;
-    background-color: coral;
-    margin-top: 40px;
-    margin-bottom: 35px;
-    
-}
-.pp {
-    margin-left: 490px;
-    margin-top: 0px;
+    width: 705px;
+    background-color:#2EC5CE;
+    padding: 40px;
+    padding-top: 364px;
+    padding-bottom: 70px;
 
 }
-.jenny {
-    background-color: crimson;
-    margin-top: 24px;
+.text__left {
+    width: 445px;
+    margin-top: -20px;
     }
-.picture {
-    margin-bottom: -4px;
-    }
-.inform {
-    display: inline-block;
-    background-color: darkcyan;
-    line-height: 34px;
+/* Не получилось выровнять текст по центу, как можно его выровнять?*/
+
+.happy {
+    font-size: 48px;
+}
+
+p {
     font-size: 18px;
-    }
-.aboutjenny {
+}
+.container {
+    width: 1110px;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+
+.block__right {
+    display: inline-block;
+    width: 570px;
+    background-color: #ffff;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.pp {
+    margin-left: 490px;
+}
+
+.president {
+    margin-left: 40px;
+}
+
+.jenny {
+    display: inline-block;   
+}
+/*Подскажите пожауйста как выронять текст картинки(фото человека) как в примере что бы было растояние меду строчками*/
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.big__text{
     margin-top: 26px;
-    background-color: darkgreen;
-    margin-bottom: 24px;
-    }
+}
+
+.images {
+    margin-top: 48px;
+}
+
 .Vector {
-    background-color: blueviolet;
-    margin-left: 375px;
-    margin-bottom: 11px;
+    margin-left: 343px;
+    margin-bottom: 14px;
 }
-.Vector-1 {
-    margin-top: 1px;
-    background-color: blue;
-    margin-left: 32px;
-    margin-bottom: 11px;
-    
+.Vector-1{
+    margin-left: 24px;
+    margin-bottom: 14px;
 }
+
