@@ -3,7 +3,68 @@ body {
     color: #18191f;
     box-sizing: border-box;  
 }
-
 h1, h2, h3, h4, p {
     margin: 0;
+}
+section{
+    width: 1110px;
+    background-color: aqua;
+}
+.container {
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+.block__left {
+    margin-left: 21px;
+    width: 445px;
+    background-color: #2EC5CE;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -384px;
+    
+}
+.block__right {
+    width: 570px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: inline-block;
+    background-color: coral;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    
+}
+.pp {
+    margin-left: 490px;
+    margin-top: 0px;
+
+}
+.jenny {
+    background-color: crimson;
+    margin-top: 24px;
+    }
+.picture {
+    margin-bottom: -4px;
+    }
+.inform {
+    display: inline-block;
+    background-color: darkcyan;
+    line-height: 34px;
+    font-size: 18px;
+    }
+.aboutjenny {
+    margin-top: 26px;
+    background-color: darkgreen;
+    margin-bottom: 24px;
+    }
+.Vector {
+    background-color: blueviolet;
+    margin-left: 375px;
+    margin-bottom: 11px;
+}
+.Vector-1 {
+    margin-top: 1px;
+    background-color: blue;
+    margin-left: 32px;
+    margin-bottom: 11px;
+    
 }
